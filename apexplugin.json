@@ -1,7 +1,7 @@
 {
    "name": "UC - Splitter",
-   "version": "22.1.0",
-   "description": "Unleash new layout possibilities with this drag and drop splitter region.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EUC - Splitter\u003C\/strong\u003E plug-in is a region that divides its 2 subregions into 2 panels, separated by a draggable splitter bar. The subregions can be split horizontally or vertically, with numerous other layout options.\u003C\/p\u003E\r\n\u003Cp\u003EThis region \u003Cstrong\u003Emust\u003C\/strong\u003E have exactly 2 subregions and it works best with a template without margins or padding, such as Blank With Attributes.\u003C\/p\u003E\r\n\u003Cp\u003EThis plug-in leverages the Spitter widget that is used in Page Designer. We have included it in this plug-in, as it required a few minor tweaks to support splitters hidden behind tabs, collapsed regions etc.\u003C\/p\u003E",
+   "version": "23.1",
+   "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The UC Splitter plug-in is a region that divides its 2 subregions into 2 panels, separated by a draggable splitter bar. The subregions can be split horizontally or vertically, with numerous other layout options. This region must have exactly 2 subregions and it works best with a template without margins or padding, such as Blank With Attributes. This plug-in leverages the Spitter widget that is used in Page Designer. We have included it in this plug-in, as it required a few minor tweaks to support splitters hidden behind tabs, collapsed regions, etc. ",
    "keywords": [
       "splitter",
       "layout",
@@ -11,20 +11,20 @@
    "license": "MIT",
    "commercial": "No",
    "commercially_supported": "Yes",
-   "homepage": "https:\/\/github.com\/foex-open-source\/uc-splitter",
+   "homepage": "https://www.plug-ins-pro.com/",
    "bugs": {
-      "url": "https:\/\/github.com\/foex-open-source\/uc-splitter\/issues",
-      "email": "support@uc.world"
+      "url": "https://github.com/plug-ins-pro/splitter/issues",
+      "email": "info@plug-ins-pro.com"
    },
    "author": {
-      "name": "UC GmbH",
-      "email": "office@uc.world",
-      "url": "https:\/\/foex.at\/uc\/",
-      "twitter": "@foexopensource"
+      "name": "United Codes",
+      "email": "info@plug-ins-pro.com",
+      "url": "https://www.plug-ins-pro.com/",
+      "twitter": "@Plug_ins_Pro"
    },
    "repository": {
       "type": "git",
-      "url": "https:\/\/github.com\/foex-open-source\/uc-splitter.git"
+      "url": "https://github.com/plug-ins-pro/splitter"
    },
    "oracle": {
       "versions": [
@@ -32,7 +32,8 @@
          "12.2.0.1",
          "18.0.0.0",
          "19.0.0.0",
-         "21.0.0.0"
+         "21.0.0.0",
+         "23.0.0.0"
       ],
       "apex": {
          "versions": [
@@ -41,13 +42,15 @@
             "20.2.0",
             "21.1.0",
             "21.2.0",
-            "22.1.0"
+            "22.1.0",
+            "23.1.0",
+            "23.2.0"
          ],
          "plugin": {
             "internalName": "UNITEDCODES_SPLITTER",
             "type": "region",
-            "demo": "https:\/\/uc.world\/ords\/f?p=10000:3030",
-            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.SPLITTER"
+            "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/pluginspro_free/",
+            "previewImage": "https://unitedcodes.s3.eu-west-1.amazonaws.com/plugin/images/UC_SPLITTER.gif"
          }
       }
    }
