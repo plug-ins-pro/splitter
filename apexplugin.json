@@ -1,6 +1,6 @@
 {
    "name": "UC - Splitter",
-   "version": "23.1",
+   "version": "26.1.0",
    "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The UC Splitter plug-in is a region that divides its 2 subregions into 2 panels, separated by a draggable splitter bar. The subregions can be split horizontally or vertically, with numerous other layout options. This region must have exactly 2 subregions and it works best with a template without margins or padding, such as Blank With Attributes. This plug-in leverages the Spitter widget that is used in Page Designer. We have included it in this plug-in, as it required a few minor tweaks to support splitters hidden behind tabs, collapsed regions, etc. ",
    "keywords": [
       "splitter",
@@ -28,26 +28,20 @@
    },
    "oracle": {
       "versions": [
-         "12.1.0.1",
-         "12.2.0.1",
-         "18.0.0.0",
          "19.0.0.0",
          "21.0.0.0",
-         "23.0.0.0"
+         "23.0.0.0",
+         "23.26.0.0"
       ],
       "apex": {
          "versions": [
-            "19.2.0",
-            "20.1.0",
-            "20.2.0",
-            "21.1.0",
-            "21.2.0",
-            "22.1.0",
-            "23.1.0",
-            "23.2.0"
+            "24.2.0",
+            "26.1.0"
          ],
          "plugin": {
             "internalName": "UNITEDCODES_SPLITTER",
+            "displayName": "UC - Splitter",
+            "portalKey": "UNITEDCODES_SPLITTER",
             "type": "region",
             "demo" : "https://www.united-codes.com/ords/pluginspro_web/r/pluginspro_free/",
             "previewImage": "https://unitedcodes.s3.eu-west-1.amazonaws.com/plugin/images/UC_SPLITTER.gif"
